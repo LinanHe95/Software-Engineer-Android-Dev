@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkedItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:minWidth="0dp" />
+
+    <TextView
+        android:id="@+id/itemNameInList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/itemQuantInList"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/deleteItemFromList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="delete" />
+</LinearLayout>
